@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(32, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    /* grid-auto-rows: stretch;
+    grid-auto-columns: stretch; */
+    gap: 0px 0px;
+    border: 5px solid red;
+    height: 100vh;
+}
