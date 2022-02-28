@@ -1,4 +1,5 @@
-let grid = document.querySelector('.grid-container')
+let grid = document.querySelector('.grid-container');
+let button = document.querySelector('.reset-button');
 
 function divCreator() {
     for (i = 0; i < 1024; i++) {
@@ -10,7 +11,6 @@ function divCreator() {
     divs.forEach(div => {
         div.addEventListener('mouseover', e => {
             div.style.backgroundColor = 'black';
-            console.log(e.type);
     })
     });
 }
